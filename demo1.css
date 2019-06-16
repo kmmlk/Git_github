@@ -1,0 +1,27 @@
+.col-1{ width: 10%; }
+.col-2{ width: 20%; }
+.col-3{ width: 30%; }
+.col-4{ width: 40%; }
+.col-5{ width: 50%; }
+.col-6{ width: 60%; }
+.col-7{ width: 70%; }
+.col-8{ width: 80%; }
+.col-9{ width: 90%; }
+.col-10{ width: 100%; }
+[class*="col-"]{ width: 100%; float: left; }
+.head{
+	background-color: red;
+	min-height: 100px;
+}
+.left{
+	background-color: pink;
+	min-height: 200px;
+}
+.right{
+	background-color: gray;
+	min-height: 200px;
+}
+.foot{
+	background-color: black;
+	min-height: 50px;
+}
