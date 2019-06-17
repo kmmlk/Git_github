@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset = "utf-8">
+		<title> Test Bootstrap </title>
+		<meta name = "viewport" content = "width=device-width,initial-scale=1">
+		<link rel = "stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	</head>
+	
+	<body>
+	
+		<div style="margin-bottom:10px;" class="hidden-md hidden-lg">
+			<div style="background-color:pink; height:100px;"> </div>
+		</div>	
+		
+		<div style="margin-bottom:10px;" class="hidden-xs hidden-sm">
+			<div style="background-color:yellow; height:100px;"> </div>
+		</div>
+		
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-3">
+						<div class="panel panel-info">
+							<div class="panel-heading"> Panel Heading </div>
+							<div class="panel-body"> HTML </div>
+							<div class="panel-body"> CSS </div>
+							<div class="panel-body"> Panel Content </div>
+							<div class="panel-footer"> Panel Content </div>
+						</div>
+				</div>
+				
+				<div class="col-sm-9"> 
+					<div class="col-sm-6 col-md-3">
+						<div style="background-color:red; height:100px; margin-bottom:10px;"> </div>
+					</div>
+					<div class="col-sm-6 col-md-3">
+						<div style="background-color:green; height:100px; margin-bottom:10px;"> </div>
+					</div>
+					<div class="col-sm-6 col-md-3">
+						<div style="background-color:blue; height:100px; margin-bottom:10px;"> </div>
+					</div>
+					<div class="col-sm-6 col-md-3">
+						<div style="background-color:gray; height:100px; margin-bottom:10px;"> </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div style="margin-bottom:10px;" class="hidden-md hidden-lg">
+			<div style="background-color:pink; height:50px; text-align:center;"> 59121061-2 Chutikarn Maleekaew </div>
+		</div>
+	</body>
+</html>
